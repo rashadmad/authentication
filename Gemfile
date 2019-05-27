@@ -37,6 +37,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'omniauth-facebook', '~> 5.0'
 
+# save envvironment varibles
+gem 'env', '~> 0.3.0'
+
 # bootstrap installation
 gem 'bootstrap', '~> 4.3.1'
 
