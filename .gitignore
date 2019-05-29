@@ -4,6 +4,9 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+# Ignores the file that holds the FACEBOOK_APP_ID, FACEBOOK_SECRET in the devise.rb file
+.env
+
 # Ignore bundler config.
 /.bundle
 
@@ -29,4 +32,3 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-.env
